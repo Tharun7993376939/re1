@@ -1,0 +1,72 @@
+.heading{
+    color:black;
+    text-align: center;
+}
+.main{
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 15px;
+    background-color:whitesmoke;
+    width: 400px;
+    margin: auto;
+    border:15px;
+    border-color: rgb(215, 15, 15);
+    text-align: center;
+}
+.usercolor{
+    color: rgb(252, 155, 9);
+}
+input[type=text]{
+border-width:2px;
+border-color:aqua;
+}
+
+button{
+    background-color:blue;
+    border-radius: 4px;
+}
+ .passcolor{
+    color: orange;
+ } 
+ input[type=radio]
+ {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }  
+ input[type=password]{
+    border-width: 2px;
+    border-color: aqua;
+ }
+ input[type=datetime-local]{
+ color:cadetblue;
+ border-color:aqua;
+ }
+ .dateandtime{
+ color:orange;
+ }
+ 
+ input[type=email]{
+    border-color:aqua;
+   
+ }
+ .email{
+    color: orange;
+ }
+ button:hover{
+    background-color:red;
+ }
+ input[type=email]:hover{
+    border-color: black;
+ }
+ input[type=password]:hover{
+    border-color: black;
+ }
+ input[type=text]:hover{
+    border-color: black;}
+    input[type=datetime-local]:hover{
+        border-color: black;}
+        heading::before{
+            transition: 1s ease-in-out;
+        }
+        heading:hover::before{
+            width: 100%;
+        }
